@@ -312,4 +312,4 @@ curl -s -H "Authorization: token $TOKEN" \
 ---
 
 **Criado em**: Fevereiro 2026  
-**Última atualização**: {{ data_atual }}
+**Última atualização**: Fevereiro 2026
