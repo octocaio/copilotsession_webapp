@@ -36,6 +36,19 @@ No build process or dependencies required - just open `index.html` in any modern
 
 ## 🔧 Additional Tools
 
+### GitHub Actions Storage Guide
+
+Comprehensive guide explaining GitHub Actions storage usage, billing, and optimization strategies.
+
+**Documentation:** [GitHub Actions Storage Guide](GITHUB_ACTIONS_ARMAZENAMENTO.md) (Portuguese)
+
+**Topics covered:**
+- 📊 How artifacts and cache consume storage quota
+- 💰 Understanding billing and cost calculation
+- 🔍 Methods to check actual storage consumption
+- ⚡ Practical strategies to reduce storage usage
+- 🤖 Automated cleanup scripts and workflows
+
 ### GitLab to GitHub MR Migrator
 
 This repository includes a comprehensive tool for migrating GitLab Merge Requests to GitHub Issues for historical and audit purposes.
