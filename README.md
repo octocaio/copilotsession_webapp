@@ -33,3 +33,34 @@ No build process or dependencies required - just open `index.html` in any modern
 - `index.html` - Main HTML structure
 - `style.css` - Styling and layout
 - `app.js` - JavaScript functionality for color changes
+
+## 🔧 Additional Tools
+
+### GitLab to GitHub MR Migrator
+
+This repository includes a comprehensive tool for migrating GitLab Merge Requests to GitHub Issues for historical and audit purposes.
+
+**Location:** `/migrator`
+
+**Documentation:**
+- [Complete Migration Guide](migrator/README.md) - Detailed documentation in Portuguese
+- [Quick Start Guide](migrator/QUICK_START.md) - Get started in 5 minutes
+
+**Features:**
+- ✅ Migrate GitLab MRs to GitHub Issues
+- ✅ Preserve complete history, comments, and metadata
+- ✅ User mapping (GitLab → GitHub)
+- ✅ Automated labeling and categorization
+- ✅ Dry-run mode for testing
+- ✅ Interactive migration script
+
+**Quick Usage:**
+```bash
+cd migrator
+pip install -r requirements.txt
+cp config.template.json config.json
+# Edit config.json with your credentials
+python3 gitlab_to_github.py --config config.json --dry-run
+```
+
+See the [migrator documentation](migrator/README.md) for complete details.
