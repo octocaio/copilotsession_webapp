@@ -2,6 +2,11 @@
 
 Ferramenta para migração de Merge Requests do GitLab para o GitHub, preservando histórico e contexto para fins de auditoria.
 
+> 📚 **Navegação:** Este é o guia técnico completo. Para outros documentos, consulte [INDEX.md](INDEX.md)
+> - 🚀 Início rápido? → [QUICK_START.md](QUICK_START.md)
+> - 📊 Resumo executivo? → [ESTRATEGIA.md](ESTRATEGIA.md)
+> - 🏗️ Arquitetura? → [ARCHITECTURE.md](ARCHITECTURE.md)
+
 ## 📋 Contexto e Estratégia de Migração
 
 ### Objetivo
