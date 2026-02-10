@@ -1,0 +1,19 @@
+{
+  "gitlab": {
+    "url": "https://gitlab.com",
+    "token": "YOUR_GITLAB_PERSONAL_ACCESS_TOKEN",
+    "project_id": "12345"
+  },
+  "github": {
+    "api_url": "https://api.github.com",
+    "token": "YOUR_GITHUB_PERSONAL_ACCESS_TOKEN",
+    "owner": "your-github-org-or-username",
+    "repo": "your-repository-name"
+  },
+  "user_mapping": {
+    "gitlab_user1": "github_user1",
+    "gitlab_user2": "github_user2"
+  },
+  "dry_run": false,
+  "rate_limit_delay": 1
+}
